@@ -1,0 +1,158 @@
+$color-black: #0e0e0e;
+$main-color-white: #f9fafb;
+$color-blue: #096dfa;
+$color-main-btn: #7041c1;
+$gray-dark-color: #212528;
+$text-red-color: #e03846;
+
+html {
+    box-sizing: border-box;
+    font-size: 61.5%; 
+}
+
+body {
+    --bs-body-bg: #0e0e0e;
+}
+
+.container-md {
+ padding: auto;
+ color: #f9fafb;
+}
+
+.navbar {
+ --bs-navbar-padding-y: 0.2rem;
+ /* padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);*/
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.bg-light-1 {
+  background-color: $main-color-white;
+}
+
+.btn-sm {
+ --bs-border-radius-sm: 2px 20px;
+}
+
+.btn-call {
+padding: 0.5rem;
+}
+
+.bi-telephone-fill {
+    margin-right: 0.3rem;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    z-index: -1;
+    opacity: .4;
+    overflow: hidden;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    
+    &__content {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+    }
+ }
+
+   .row .col-4{
+    //width: 21.33333%;
+ }
+
+ h1 {
+    --bs-heading-color: white;
+    z-index: 100;
+    opacity: 1;
+    position: relative;
+    background-color: transparent;
+    padding-top: 100px;
+    font-size: calc(1.375rem + 1vw)!important;
+ }
+
+h2 {
+    --bs-heading-color: white;
+}
+
+ h3 {
+    --bs-heading-color:white;
+    text-align: center;
+    font-size: calc(1.375rem + 0.5vw);
+
+ }
+
+ li {
+    font-size: 85.5%; 
+ }
+
+ .nav-item{
+    font-weight: bold;
+    font-size: 95.5%; 
+ }
+
+ .container-header {
+ padding: 0rem 15rem 2rem 15rem;
+ }
+
+ .container-m {
+    padding:14rem 15rem 10rem 15rem;
+    //margin-top: 10rem;
+    justify-content: space-between;
+ }
+
+
+
+ .btn-secondary  {
+    --bs-btn-bg: #7041c1!important;
+    --bs-btn-border-color: #7041c1!important;
+ }
+
+ .btn-lg {
+    --bs-border-radius-lg: 2px 20px;
+ }
+
+
+ .text {
+    color: white;
+ }
+
+ .row-h3{
+    background-color: $gray-dark-color;
+    padding: 0.1rem 0 0.1rem 0;
+ }
+
+ .container-card {
+    background-color: #f9fafb;
+    padding: 3rem 15rem 3rem 15rem;
+ }
+
+ /*
+ .row-card {
+   justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+ }
+*/
+
+ .card {
+    --bs-card-bg: #f9fafb!important;
+     border: none!important;
+     box-shadow: 5px 5px 20px rgb(161, 161, 161);
+ 
+ }
+
+ .card-text {
+    font-size: 85.5%; 
+ }

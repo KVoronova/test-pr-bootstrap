@@ -4,6 +4,7 @@ $color-blue: #096dfa;
 $color-main-btn: #7041c1;
 $gray-dark-color: #212528;
 $text-red-color: #e03846;
+$color-white: #ffffff;
 
 html {
     box-sizing: border-box;
@@ -16,7 +17,7 @@ body {
 
 .container-md {
  padding: auto;
- color: #f9fafb;
+ color: $main-color-white;
 }
 
 .navbar {
@@ -68,26 +69,37 @@ padding: 0.5rem;
     }
  }
 
-   .row .col-4{
-    //width: 21.33333%;
- }
+
 
  h1 {
-    --bs-heading-color: white;
     z-index: 100;
     opacity: 1;
     position: relative;
     background-color: transparent;
     padding-top: 100px;
-    font-size: calc(1.375rem + 1vw)!important;
+    font-weight: 300;
+ }
+
+  .main-heading {
+    font-weight: 300;
+    font-size: calc(1.375rem + 2vw);
+    color: $color-white;
+ }
+
+ .header-red {
+    color: $text-red-color;
  }
 
 h2 {
-    --bs-heading-color: white;
+    --bs-heading-color: #ffffff;
+}
+
+.sec-heading {
+    font-weight: 400;
 }
 
  h3 {
-    --bs-heading-color:white;
+    --bs-heading-color: #ffffff;
     text-align: center;
     font-size: calc(1.375rem + 0.5vw);
 
@@ -103,7 +115,7 @@ h2 {
  }
 
  .container-header {
- padding: 0rem 15rem 2rem 15rem;
+ padding: 0rem 15rem 5gitgrem 15rem;
  }
 
  .container-m {
@@ -125,7 +137,7 @@ h2 {
 
 
  .text {
-    color: white;
+    color: $color-white;
  }
 
  .row-h3{
@@ -134,7 +146,7 @@ h2 {
  }
 
  .container-card {
-    background-color: #f9fafb;
+    background-color: $main-color-white;
     padding: 3rem 15rem 3rem 15rem;
  }
 
